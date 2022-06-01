@@ -17,12 +17,9 @@ const TodoList = (props) => {
       <h2>{props.title}</h2>
       <p>{props.content}</p>
       <Todo title="インターンの申し込み" />
-      <Todo title="aaa" />
-      <Todo title="aaa" />
-      <Todo title="aaa" />
-      <Todo title="aaa" />
-      <Todo title="aaa" />
-      <Todo title="aaa" />
+      <Todo title="ゼミ資料作成" />
+      <Todo title="Progate進める" />
+      <Todo title="就活ES作成" />
     </StyledArticle>
   )
 };
@@ -33,7 +30,7 @@ const App = () => {
     <h1>Todoリスト⭐️</h1>
       <TodoList
         title="今週やること！！"
-        content="greinugewjiutj94iu3wgj9043wg9j4j943w"
+        content="眠くてもやらないと…"
       />
     </div>
   );
